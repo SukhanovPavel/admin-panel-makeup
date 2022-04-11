@@ -1,5 +1,8 @@
+html, body {
+    height: 100%;
+}
+
 body {
-    
     width: 95%;
     font-size: 30px;
     margin-top: 1rem;
@@ -8,15 +11,13 @@ body {
 
 .header {
     font-weight: bold;
-    color: blueviolet;
-    background-color: rgb(142, 141, 230);
-    width: 100%;
-    
-    
+    color: rgb(92, 43, 226);
+    background-color: rgb(180, 179, 240);
+    width: 100%; 
 }
 
 .elements {
-    color: rgb(142, 141, 230);
+    color: rgb(180, 179, 240);
     display: flex;
     flex-wrap: nowrap;
     margin-top: 1rem;
@@ -27,14 +28,14 @@ body {
 .element1 {
     width: 25%;
     font-size: 1rem;
-    background-color: blueviolet;
+    background-color: rgb(92, 43, 226);
     padding: 0.3rem;
 }
 
 .element2 {
     width: 8%;
     font-size: 1rem;
-    background-color: blueviolet;
+    background-color: rgb(92, 43, 226);
     margin-left: 0.3rem;
     padding: 0.3rem; 
 }
@@ -42,32 +43,38 @@ body {
 .element3 {
     width: 8%;
     font-size: 1rem;
-    background-color: blueviolet;
+    background-color: rgb(92, 43, 226);
     margin-left: 60%;
     padding: 0.3rem;
+    
 }
 
-.page {
+.wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    height: 81.3%;
     border-style: solid;
-    border-color: blueviolet;
+    border-color: rgb(92, 43, 226);
     width: 100%;
-    height: 35rem;
-    background-color: rgb(142, 141, 230);
+    background-color: rgb(180, 179, 240);
     margin-top: 1rem;
-    
 }
 
-.page__page-header {
+.wrapper__wrapper-header {
+    
+    top: 0;
+    width: 100%;
     height: 10%;
-    background-color: blueviolet;
+    background-color: rgb(92, 43, 226);
 }
 
-.page__page-footer {
-    
-    
+.wrapper__wrapper-content {
+    flex: 1 0 auto;
+}
+
+.wrapper__wrapper-footer {
+    flex: 0 0 auto;
+    width: 100%;
     height: 10%;
-    background-color: blueviolet;
+    background-color: rgb(92, 43, 226);
 }
