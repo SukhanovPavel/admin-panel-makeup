@@ -4,17 +4,19 @@ body {
 }
 
 body {
-  width: 95%;
+  
   font-size: 30px;
   margin-top: 1rem;
   margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .header {
+  padding-left: 0.5rem;
   font-weight: bold;
   color: rgb(92, 43, 226);
   background-color: rgb(180, 179, 240);
-  width: 100%;
+  
 }
 
 .elements {
@@ -27,6 +29,7 @@ body {
 }
 
 .element1 {
+  text-align: center;
   width: 25%;
   font-size: 1rem;
   background-color: rgb(92, 43, 226);
@@ -34,6 +37,7 @@ body {
 }
 
 .element2 {
+  text-align: center;
   width: 8%;
   font-size: 1rem;
   background-color: rgb(92, 43, 226);
@@ -42,6 +46,7 @@ body {
 }
 
 .element3 {
+  text-align: center;
   width: 8%;
   font-size: 1rem;
   background-color: rgb(92, 43, 226);
