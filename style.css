@@ -1,80 +1,84 @@
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 body {
-    width: 95%;
-    font-size: 30px;
-    margin-top: 1rem;
-    margin-left: 2rem;
+  
+  font-size: 30px;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .header {
-    font-weight: bold;
-    color: rgb(92, 43, 226);
-    background-color: rgb(180, 179, 240);
-    width: 100%; 
+  padding-left: 0.5rem;
+  font-weight: bold;
+  color: rgb(92, 43, 226);
+  background-color: rgb(180, 179, 240);
+  
 }
 
 .elements {
-    color: rgb(180, 179, 240);
-    display: flex;
-    flex-wrap: nowrap;
-    margin-top: 1rem;
-    border-style: solid;
-    padding: 0.3rem;
+  color: rgb(180, 179, 240);
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 1rem;
+  border-style: solid;
+  padding: 0.3rem;
 }
 
 .element1 {
-    width: 25%;
-    font-size: 1rem;
-    background-color: rgb(92, 43, 226);
-    padding: 0.3rem;
+  text-align: center;
+  width: 25%;
+  font-size: 1rem;
+  background-color: rgb(92, 43, 226);
+  padding: 0.3rem;
 }
 
 .element2 {
-    width: 8%;
-    font-size: 1rem;
-    background-color: rgb(92, 43, 226);
-    margin-left: 0.3rem;
-    padding: 0.3rem; 
+  text-align: center;
+  width: 8%;
+  font-size: 1rem;
+  background-color: rgb(92, 43, 226);
+  margin-left: 0.3rem;
+  padding: 0.3rem;
 }
 
 .element3 {
-    width: 8%;
-    font-size: 1rem;
-    background-color: rgb(92, 43, 226);
-    margin-left: 60%;
-    padding: 0.3rem;
-    
+  text-align: center;
+  width: 8%;
+  font-size: 1rem;
+  background-color: rgb(92, 43, 226);
+  margin-left: 60%;
+  padding: 0.3rem;
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    height: 81.3%;
-    border-style: solid;
-    border-color: rgb(92, 43, 226);
-    width: 100%;
-    background-color: rgb(180, 179, 240);
-    margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 81.3%;
+  border-style: solid;
+  border-color: rgb(92, 43, 226);
+  width: 100%;
+  background-color: rgb(180, 179, 240);
+  margin-top: 1rem;
 }
 
 .wrapper__wrapper-header {
-    
-    top: 0;
-    width: 100%;
-    height: 10%;
-    background-color: rgb(92, 43, 226);
+  top: 0;
+  width: 100%;
+  height: 10%;
+  background-color: rgb(92, 43, 226);
 }
 
 .wrapper__wrapper-content {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .wrapper__wrapper-footer {
-    flex: 0 0 auto;
-    width: 100%;
-    height: 10%;
-    background-color: rgb(92, 43, 226);
+  flex: 0 0 auto;
+  width: 100%;
+  height: 10%;
+  background-color: rgb(92, 43, 226);
 }
