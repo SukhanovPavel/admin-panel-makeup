@@ -53,3 +53,5 @@
     background: none;
     border: none;
 }
+
+input[type="text"]::placeholder { color: black; }
