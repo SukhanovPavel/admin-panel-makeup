@@ -8,28 +8,41 @@
     <link rel="stylesheet" type="text/css" href="input.css">
 </head>
 <body>
-    <div class="input">
+    <div class="input input_border-style">
         <div class="field">
             <div type="text" class="topText">Дата и время заказа</div>
             <div class="inputForm inputForm_borderBlue">
-                <input  class="inp" placeholder="Введите">
+                <input type="text" class="inp" placeholder="Введите">
             </div>
         </div>
         <div class="field">
             <div type="text" class="topText">Дата и время заказа</div>
             <div class="inputForm inputForm_borderRed">
-                <input type="text" class="inp" placeholder="06.12.21">
-                <span class="x">&#215;</span>
+                <input type="text" class="inp" id="black" placeholder="06.12.21">
+                <input type="button" value="&#215;" class="x">
             </div>
         </div>
         <div class="field">
             <div type="text" class="topText">Дата и время заказа</div>
             <div class="inputForm inputForm_borderBlue inputForm_backgroundBlue">
-                <input type="text" class="inp" placeholder="06.12.21" disabled>
-                <span class="closed">&#128274;</span>
+                <input type="text" class="inp" id="black" placeholder="06.12.21" disabled>
+                <input type="button" value="&#128274;" class="closed">
             </div>
         </div>
     </div>
+
+    <div class="searchbar input_border-style">
+        <div class="inputForm inputForm_borderBlue" id="searchForm">
+            <input type="button" value="&#128269;" class="search">
+            <input type="search" name="" id="" class="inp" placeholder="Номер заказа или ФИО">
+        </div>
+        <div class="inputForm inputForm_borderBlue" id="searchForm">
+            <input type="button" value="&#128269;" class="search">
+            <input type="search" name="" id="black" class="inp" placeholder="50744">
+            <input type="button" value="&#215;" class="x"> 
+        </div>
+    </div>
+
 </body>
 </html>
 
