@@ -1,0 +1,33 @@
+.checkbox-radio {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-pos {
+    margin-top: 50px;
+    width: 110px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+}
+
+.radio-pos {
+    margin-top: 50px;
+    width: 110px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.radio {
+    width: 20px;
+    height: 20px;
+}
