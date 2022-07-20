@@ -54,11 +54,8 @@
 }
 
 .closed {
-    background: none;
-    border: none;
-    font-size: large;
-    margin: 0;
-    padding: 0;
+    margin-right: 5px;
+    margin-top: 3px;
 }
 
 input[id="black"]::placeholder { color: black; }
