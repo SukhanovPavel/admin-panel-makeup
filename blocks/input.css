@@ -13,6 +13,7 @@
 }
 
 .inputForm {
+    position: relative;
     width: 200px;
     height: 1.5rem;
     display: flex;
@@ -20,11 +21,15 @@
 }
 
 .inp {
+    
+    left: 5px;
     width: 200px;
     border: none;
     background: none;
     font-size: 0.8rem;
 }
+
+
 
 .inputForm.inputForm_borderBlue {
     border: solid 2px #337AB7;
@@ -41,6 +46,10 @@
 }
 
 .x {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
     border: none;
     background: none;
     font-size: 25px;
@@ -53,9 +62,16 @@
     font-size: small;
 }
 
-.closed {
-    margin-right: 5px;
-    margin-top: 3px;
+.lock {
+    margin-right: 0.3rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    width: 1rem;
 }
 
 input[id="black"]::placeholder { color: black; }
+
+input[name="searchFocus"]:focus {
+    margin-left: -20px;
+    padding-left: 20px;
+}
