@@ -26,15 +26,15 @@
 }
 
 .backgroundBlue_Big {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     height: 2rem;
     padding-left: 1rem;
-    padding-top: 0.2rem;
+    /* padding-top: 0.2rem; */
     padding-right: 1rem;
-    padding-bottom: 0.2rem;
+    /* padding-bottom: 0.2rem; */
 }
 .backgroundBlue_Small {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     height: 1.5rem;
     padding-left: 1rem;
     padding-top: 0.2rem;
@@ -62,7 +62,7 @@
 }
 
 .textBlue_Big {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     height: 2rem;
     padding-left: 1rem;
     padding-top: 0.2rem;
@@ -71,7 +71,7 @@
 }
 
 .textBlue_Small {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     height: 1.5rem;
     padding-left: 1rem;
     padding-top: 0.2rem;
@@ -85,7 +85,7 @@
     border-radius: 4px;
     /* color: rgb(105, 193, 248); */
     font-size: 0.7rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     height: 2rem;
     padding-left: 1rem;
     padding-top: 0.2rem;

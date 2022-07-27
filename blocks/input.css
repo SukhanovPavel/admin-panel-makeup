@@ -44,17 +44,17 @@ body {
 
 
 
-.inputForm.inputForm_borderBlue {
+.inputForm_borderBlue {
     border: solid 2px #337AB7;
     border-radius: 3px;
 }
 
-.inputForm.inputForm_borderRed {
+.inputForm_borderRed {
     border: solid 2px #b73333;
     border-radius: 3px;
 }
 
-.inputForm.inputForm_backgroundBlue {
+.inputForm_backgroundBlue {
     background: #94b3ce;
 }
 
@@ -72,7 +72,7 @@ body {
 
 .topText {
     font-family: sans-serif;
-    font-size: small;
+    font-size: 0.7rem;
 }
 
 .lock {

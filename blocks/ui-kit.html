@@ -10,8 +10,7 @@
     <link rel="stylesheet" type="text/css" href="search-bar.css">
     <link rel="stylesheet" type="text/css" href="checkbox-radio.css">
     <link rel="stylesheet" type="text/css" href="button.css">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="dropdown.css">
     <svg  xmlns="http://www.w3.org/2000/svg" style="display: none" >
         <symbol id="searchButton" viewBox="0 0 550 550">
             <title>searchButton</title>
@@ -21,6 +20,9 @@
             57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"/>
         </symbol>
     </svg>
+</head>
+<body>
+    
     <div class="input input_border-style">
         <div class="field">
             <div type="text" class="topText">Дата и время заказа</div>
@@ -205,6 +207,87 @@
                             <use xlink:href="#searchButton" />
                         </svg>
                     </span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="dropdowns input_border-style">
+        <div class="dropdown dropdown_style">
+            <ul style="list-style: none">
+                <li><input type="checkbox" class="dropdownCheck" name="" id="">Новый</li>
+                <li class="noLi"></li>
+                <li><input type="checkbox" class="dropdownCheck" name="" id="">Рассчет</li>
+                <li class="noLi"></li>
+                <li><input type="checkbox" class="dropdownCheck" checked="checked" name="" id="">Подтвержден</li>
+                <li class="noLi"></li>
+                <li><input type="checkbox" class="dropdownCheck" name="" id="">Отложен</li>
+                <li class="noLi"></li>
+                <li><input type="checkbox" class="dropdownCheck" name="" id="">Выполнен</li>
+                <li class="noLi"></li>
+                <li><input type="checkbox" class="dropdownCheck" name="" id="">Отменен</li>
+            </ul>
+        </div>
+        <div class="dropdown dropdown_style">
+            <ul style="list-style: none">
+                <li>Новый</li>
+                <li class="noLi"></li>
+                <li>Рассчет</li>
+                <li class="noLi"></li>
+                <li id="checkedLi">Подтвержден</li>
+                <li class="noLi"></li>
+                <li>Отложен</li>
+                <li class="noLi"></li>
+                <li>Выполнен</li>
+                <li class="noLi"></li>
+                <li>Отменен</li>
+            </ul>
+        </div>
+        <div class="dropdown dropdown_style" style="border: none; box-shadow: none;" ></div>
+        <div class="dropdown dropdown_style">
+            <span class="topText">
+                Номер страницы
+            </span>
+            <input type="text" name="" id="" placeholder="Введите номер" class="inputFormDrDw inputForm_borderBlue">
+        </div>
+        <div class="dropdown dropdown_style" id="alignItems">
+            <span class="topText">
+                Удалить n записей
+            </span>
+            <div class="buttonTwo">
+                <button class="textBlue textBlue_Small">
+                    Удалить
+                </button>
+            </div>
+            <div class="buttonTwo">
+                <button class="backgroundBlue backgroundBlue_Small">
+                    Отменить
+                </button>
+            </div>
+        </div>
+        <div class="dropdown dropdown_style">
+            <span class="topText">
+                Выберете тему
+            </span>
+            <div class="buttonOne">
+                <button class="textBlue textBlue_Small">
+                    <span class="search-icon">
+                        <svg class = "searchButton searchButton_Blue" width="14" height="14">
+                            <use xlink:href="#searchButton" />
+                        </svg>
+                    </span>
+                    Светлая
+                </button>
+            </div>
+            <div class="buttonOne">
+                <button class="backgroundBlue backgroundBlue_Small">
+                    <span class="search-icon">
+                        <svg class = "searchButton searchButton_White" width="14" height="14">
+                            <use xlink:href="#searchButton" />
+                        </svg>
+                    </span>
+                    Темная
                 </button>
             </div>
         </div>
